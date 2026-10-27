@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.development
+dist/
+
+# uploaded content does not belong in version control
+server/uploads/*
+!server/uploads/.gitkeep
